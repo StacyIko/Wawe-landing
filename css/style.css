@@ -73,13 +73,10 @@ a {
   border: none;
   cursor: pointer;
   outline: none;
-  /* width: 40px;
-  height: auto; */
   flex-shrink: 0;
   flex-grow: 0;
   text-align: center;
   background: none;
-  /* padding: 10px; */
   position: relative;
   transition: all 0.3 ease-in;
 }
@@ -102,11 +99,6 @@ a {
   margin: 0 auto;
   position: absolute;
   transition: all 0.3s ease;
-}
-
-.burger__item span {
-  /* top: 50%;
-  left: 50%; */
 }
 
 .burger__item::before,
@@ -161,7 +153,6 @@ a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* height: calc(100vh - 98px); */
 	height: 100vh;
 	padding-top: 98px;
 }
@@ -212,13 +203,6 @@ a {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	/* column-count: 2;
-	margin-right: -5px; */
-	/* 115-120 */
-	/* display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 120px;
-	grid-row-gap: 30px; */
 }
 
 .about__text p {
@@ -573,6 +557,7 @@ a {
 	font-size: 48px;
 	line-height: 1.17;
 }
+
 .slider__subtitle {
 	font-weight: 300;
 }
@@ -611,12 +596,10 @@ a {
 
 .team {
 	padding-bottom: 184px;
-	/* 204-20 */
 }
 
 .team__title {
 	margin-bottom: 212px;
-	/* max-width: 414px; */
 }
 
 .team__items {
@@ -808,19 +791,19 @@ a {
 .contact__wrapper {
 	margin-bottom: 20px;
 }
-.contact__aside a {
+.phone {
 	transition: color .3s;
 }
 
-.contact__aside a:hover {
+.phone:hover {
 	color: #00B2A0;
 }
 
-.contact__aside a, .contact__aside p {
+.phone, .contact__aside p {
 	max-width: 327px;
 }
 
-.socials {
+.social {
 	padding: 200px 10px 193px;
 	margin: 0 auto;
 	text-align: center;
@@ -846,7 +829,7 @@ a {
 	background-color: #00B2A0;
 }
 
-.logo img {
+.logo__img {
 	display: inline-block;
 }
 
@@ -858,7 +841,7 @@ a {
 
 	.header__block {
 		justify-content: space-between;
-		padding: 35px 35px 0 35px;
+		padding: 35px 0 0 0;
 	}
 
 	.menu {
@@ -1066,7 +1049,7 @@ a {
 		margin-right: 0;
 	}
 
-	.socials {
+	.social {
 		padding: 40px 10px 0;
 	}
 	
@@ -1089,10 +1072,6 @@ a {
 
 	.header__title {
 		line-height: 1;
-	}
-
-	.header__icon {
-		 /* background-size: auto 90%; */
 	}
 
 	.about__text p {
