@@ -1117,6 +1117,10 @@ a {
 }
 
 @media (max-width: 575px) {
+	.container {
+		width: 95%;
+	}
+	
 	.header__block {
 		padding-top: 20px;
 	}
